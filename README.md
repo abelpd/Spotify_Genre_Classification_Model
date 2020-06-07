@@ -12,7 +12,7 @@ This project's goal was to serve as my introduction to machine learning. In this
 
 * Bagging & boosting methods produced similar results (performance wise). However, the random forest model was marginally better. Furthermore, the random forest model is better at interpolating feature importance than Adaboost. For these reasons, the random forest was selected. With the addition of new data however, it would be important to retest all models due to the chance a different model performs better at higher dimensions.
 
-* The importance of abstracting the model improve readability & brevity. One of the mistakes I made in creating this notebook was writing each model in a separate section. A more efficient method would be to abstract the model running to a helper function and run all transformations through an sklearn pipeline. This would substantially decrease the length of the notebook and reduce the time it takes for someone reading my code to understand what I've done. In my second capstone, this is something I will make a point to improve on.
+* The importance of abstracting the model to improve readability & brevity. One of the mistakes I made in creating this notebook was writing each model in a separate section. A more efficient method would be to abstract the model running to a helper function and run all transformations through an sklearn pipeline. This would substantially decrease the length of the notebook and reduce the time it takes for someone reading my code to understand what I've done. In my second capstone, this is something I will make a point to improve on.
 
 
 ---
